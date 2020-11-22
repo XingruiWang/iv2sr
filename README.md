@@ -8,7 +8,7 @@ The original code is written by Lin Wei on his [website](https://www.math.pku.ed
 
 ### Install
 
-Install package by running
+Install package by running:
 ```{R}
 library(devtools)
 install_github("XingruiWang/iv2sr")
