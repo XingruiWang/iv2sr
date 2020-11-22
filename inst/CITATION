@@ -1,0 +1,15 @@
+citHeader("The revision of the R code implement of paper:")
+
+citEntry(
+  entry = "Article",
+  author = "Lin, Wei and Feng, Rui and Li, Hongzhe",
+  title = "Regularization methods for high-dimensional instrumental variables regression with an application to genetical genomics",
+  journal = "Journal of the American Statistical Association",
+  volume = 110,
+  number = 509,
+  pages = "270--288",
+  year = 2015,
+  publisher = "Taylor \& Francis",
+  url = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4573639/",
+  textVersion = paste("Lin W, Feng R, Li H. Regularization Methods for High-Dimensional Instrumental Variables Regression With an Application to Genetical Genomics.","J Am Stat Assoc. 2015;110(509):270-288. doi: 10.1080/01621459.2014.908125. PMID: 26392642; PMCID: PMC4573639.")
+)
