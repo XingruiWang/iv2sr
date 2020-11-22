@@ -1,4 +1,4 @@
-citHeader("The revision of the R code implement of paper:")
+citHeader("The revision of the R code implementing of paper:")
 
 citEntry(
   entry = "Article",
