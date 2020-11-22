@@ -1,3 +1,12 @@
+#' Description of the file
+#'
+#' @param x x
+#' @param y y
+#' @return return
+#' @examples
+#' cd()
+
+#' @export
 cd <- function(y, x, method, lam, nlam=50, a=3.7, upto=0.4*length(y), maxit=50, tol=1e-4) {
 	pen <- as.integer(switch(method, Lasso=0, SCAD=1, MCP=2))
 	y <- scale(y, scale=FALSE)
@@ -13,6 +22,7 @@ cd <- function(y, x, method, lam, nlam=50, a=3.7, upto=0.4*length(y), maxit=50, 
 	ans
 }
 
+#' @export
 cv <- function(y, x, method, lam, ind, nfold=10) {
 	n <- length(y); nlam <- length(lam)
 	if (missing(ind)) ind <- split(1:n, sample(rep(1:nfold, length=n)))
@@ -30,6 +40,7 @@ cv <- function(y, x, method, lam, ind, nfold=10) {
 	list(cv.err=cv.err, se=se, i=i)
 }
 
+#' @export
 stab <- function(y, x, method, lam, nsample=100, nsub=floor(0.5*length(y)), seed=41) {
 	set.seed(seed)
 	n <- length(y); p <- ncol(x); nlam <- length(lam)

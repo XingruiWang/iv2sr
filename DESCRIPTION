@@ -3,7 +3,7 @@ Type: Package
 Title: An R package implementing of Regularization Methods for High-Dimensional Instrumental Variables Regression With an Application to Genetical Genomics
 Version: 0.1.0
 Author: Lin Wei
-Maintainer: Xingrui Wang. (XingruiWang@ruc.edu.cn)
+Maintainer: Xingrui Wang <XingruiWang@ruc.edu.cn>
 Description: An R package implementing of Regularization Methods
   for High-Dimensional Instrumental Variables Regression With an 
   Application to Genetical Genomics. The origin code is written by Lin Wei in 
@@ -12,3 +12,4 @@ Description: An R package implementing of Regularization Methods
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.0
